@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  background: #616161;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 24px;
+}
+
+span {
+  color: #D1A954;
+}
+
+/*# sourceMappingURL=reset.css.map */

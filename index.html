@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<header id="header">
+    <div class="container">
+        <div class="header">
+            <div class="header--menu">
+                <a href="#">Главная</a>
+                <a href="#">о театре</a>
+                <a href="#">Наши постановки</a>
+                <a href="#">партнеры театра</a>
+            </div>
+            <a class="header--fhone" href="tel:+74951234567">+7 495 123-45-67</a>
+            <div class="header--hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#">Главная</a></li>
+                    <li><a class="menu__item" href="#">Проекты</a></li>
+                    <li><a class="menu__item" href="#">Команда</a></li>
+                    <li><a class="menu__item" href="#">Блог</a></li>
+                    <li><a class="menu__item" href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="hero">
+    <div class="container">
+        <div class="hero">
+            <div class="hero--gray">
+                <div class="hero--gray__gray-info">
+                    <h2>контактная информация</h2>
+                    <hr width="1" color="white">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-vk"></ion-icon>
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </div>
+            </div>
+            <div class="hero--big-teatr">
+                <h1>
+                    Большой театр
+                </h1>
+                <p>Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах,
+                    с 1886 года — Петербургская консерватория. Первое постоянное в
+                    Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных
+                    зданий в Европе XVIII.</p>
+                <button>афиша</button>
+            </div>
+            <div class="hero--book">
+                <div class="hero--book__book-slider">
+                    <img class="hero--book__book-slider" src="./img/book.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h1><span>о</span> театре</h1>
+        <div class="about">
+            <div class="about--first">
+                <h2 class="about--first__best">Самый лучший театр СПБ</h2>
+                <p>Как свидетельствуют архивные документы, первое каменное <br>
+                    здание Большого театра начали возводить в 1775 году по<br>
+                    проекту Антонио Ринальди. В дальнейшем, после того как<br>
+                    Ринальди упал с лесов и не мог лично наблюдать за ходом<br>
+                    работ, Екатерина II поручила немецкому театральному<br>
+                    декоратору и архитектору
+                    Людвигу Филиппу Тишбейну создать<br>
+                    новый проект театра, который и был воплощён архитекторами<br> Ф. В. фон Бауром и М. А. Деденёвым.
+                    Открытие его состоялось<br>
+                    в 1783 году, хотя, основываясь на других свидетельствах, годом<br>
+                    открытия можно считать 1784 год.</p>
+            </div>
+            <div class="about--second">
+                <h2>немного о цифрах</h2>
+                <img class="about--second__icon" src="./img/icon1.svg" alt="">
+                <h2><span>1600 </span>посадочных мест</h2>
+                <img class="about--second__icon" src="./img/icon2.svg" alt="">
+                <h2><span>350</span>лет истории</h2>
+            </div>
+            <img class="about--teatr-image" src="./img/teatr.png" alt="">
+        </div>
+    </div>
+</section>
+
+<section id="our">
+    <div class="container">
+        <h1><span>наши </span>постановки</h1>
+        <div class="our">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="swiper-slide-image" src="./img/1.png" alt="">
+                        <h2>ОСКАР 2020</h2>
+                        <h1>сентябрь 2020</h1>
+                    </div>
+                    <div class="swiper-slide"><img src="./img/2.png" alt="">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-slide"><img src="./img/3.png" alt="">
+                        <h2>золотой грамофон</h2>
+                        <h1>июль 2020</h1>
+                    </div>
+                    <div class="swiper-slide"><img src="./img/4.png" alt="">
+                        <h2>щелкунчик</h2>
+                        <h1>май 2020</h1>
+                    </div>
+                    <div class="swiper-slide"><img src="./img/2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/3.png" alt=""></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="grade">
+    <div class="container">
+        <div class="grade">
+            <span>2018<br>2019<br>2020</span>
+            <div>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <h1>Лучший театр<br>
+                    по мнению театральных <br>
+                    критиков Парижа</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="gazprom">
+    <div class="container">
+        <h1><span>партнеры</span> театра</h1>
+        <div class="gazprom">
+            <img src="./img/path42.svg" alt="">
+            <img class="gazprom--fire-svg" src="./img/fire.svg" alt="">
+            <h1>ГАЗПРОМ</h1>
+            <img src="./img/path42.svg" alt="">
+            <img class="gazprom--fire-svg" src="./img/fire.svg" alt="">
+            <h1>ГАЗПРОМ</h1>
+            <img src="./img/path42.svg" alt="">
+            <img class="gazprom--fire-svg" src="./img/fire.svg" alt="">
+                <h1 class="gazprom--text">ГАЗПРОМ</h1>
+            <img src="./img/path42.svg" alt="">
+            <img class="gazprom--fire-svg" src="./img/fire.svg" alt="">
+            <h1 class="gazprom--text">ГАЗПРОМ</h1>
+        </div>
+        <div class="gazprom">
+            <img src="./img/path42.svg" alt="">
+            <img class="gazprom--fire-svg" src="./img/fire.svg" alt="">
+            <h1>ГАЗПРОМ</h1>
+            <img src="./img/path42.svg" alt="">
+            <img class="gazprom--fire-svg" src="./img/fire.svg" alt="">
+            <h1>ГАЗПРОМ</h1>
+            <img src="./img/path42.svg" alt="">
+            <img class="gazprom--fire-svg" src="./img/fire.svg" alt="">
+            <h1 class="gazprom--text">ГАЗПРОМ</h1> <img src="./img/path42.svg" alt="">
+            <img class="gazprom--fire-svg" src="./img/fire.svg" alt="">
+            <h1 class="gazprom--text">ГАЗПРОМ</h1>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="conatiner">
+        <h1><span>стать</span> меценатом</h1>
+        <div class="contact">
+            <div class="contact--info">
+                <a class="contact--info__number" href="tel:+78121234555">+7 (812) 123-45-66</a>
+                <a class="contact--info__number" href="tel:+78121234566">+7 (812) 123-45-66</a>
+                <h3 class="contact--info__h3">info@theater.ru</h3>
+                <h3 class="contact--info__h3">г. санкт-петербург, невский 140</h3>
+
+            </div>
+            <div class="contact--info2">
+                <div class="contact--info2__in">
+                    <div class="contact--info2__in--write">
+                        <input type="text" placeholder="Имя">
+                        <input type="text" placeholder="Телефон">
+                    </div>
+                    <div class="contact--info2__in--write">
+                        <input type="text" placeholder="Компания">
+                        <input type="text" placeholder="E-mail">
+                    </div>
+                    <div class="contact--info2__in--write">
+                        <textarea placeholder="Сообщение"></textarea>
+                    </div>
+                </div>
+                <div class="contact--info2__info3">
+                    <p>* Ваши данные не будут переданы третьим лицам, 100%<br>
+                        вероятность. Конфиденциальность мы гарантируем, и защищаем <br>
+                        персональные данные согласно законку ФЗ-52.</p>
+                    <button>отправить</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="footer">
+            <hr width="1155" color="#565656">
+            <div class="footer--text">
+                <p class="footer--text__p1">(с) Все права защищены. Большой театр. 2020</p>
+                <p class="footer--text__p2">Разработано d-e-n.ru</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

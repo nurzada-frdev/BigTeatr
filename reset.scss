@@ -1,0 +1,82 @@
+$colWhite: white;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: #616161;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 24px;
+}
+span{
+  color: #D1A954;
+}
+@mixin around{
+  display: flex;
+  justify-content: space-around;
+}
+@mixin between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin alignCenter {
+  display: flex;
+  align-items: center;
+}
+
+@mixin h1 {
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: white;
+  font-size: 35px;
+}
+
+@mixin letUpper {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@mixin column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+@mixin input {
+  margin: 7px 20px;
+  background: #444444;
+  border: 1px solid #616161;
+  padding: 15px 30px;
+}
+
+@mixin textCenter {
+  display: flex;
+  text-align: center;
+}
+@mixin alignBetween{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin around{
+  display: flex;
+  justify-content: space-around;
+}

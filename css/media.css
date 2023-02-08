@@ -1,0 +1,646 @@
+@media (max-width: 1024px) {
+  #header .hamburger-menu {
+    display: none;
+  }
+  #grade .grade {
+    padding: 34% 16%;
+  }
+  #our .our .swiper-slide img {
+    width: 125%;
+  }
+  #about .about--first__best h2 {
+    font-size: 17px;
+  }
+  #gazprom .gazprom h1 {
+    font-size: 24px;
+  }
+  #hero .hero--gray {
+    height: 99%;
+  }
+  #footer .footer hr {
+    margin-left: 31px;
+    width: 918px;
+  }
+  #about .about {
+    width: 87%;
+  }
+  #about .about--teatr-image {
+    display: none;
+  }
+}
+@media (max-width: 1140px) {
+  #about .about--teatr-image {
+    display: none;
+  }
+  #header .hamburger-menu {
+    display: none;
+  }
+  #about .about {
+    width: 86%;
+  }
+  #grade .grade {
+    padding: 26% 16%;
+  }
+  #header .header--menu a {
+    margin: 0 12px;
+  }
+  #footer .footer hr {
+    margin-left: 31px;
+    width: 993px;
+  }
+  #footer .footer--text {
+    padding: 29px 0;
+    margin: 0 21px;
+  }
+  #grade .grade span {
+    font-size: 63px;
+  }
+  #hero .hero--book img {
+    width: 230px;
+  }
+  #hero .hero {
+    padding: 12%;
+  }
+  #hero .hero--gray__gray-info h2 {
+    top: 19%;
+  }
+  #hero .hero--gray__gray-info hr {
+    top: 37%;
+  }
+  #hero .hero--gray {
+    height: 99%;
+  }
+  #our .our .swiper h1 {
+    top: 64%;
+    left: -28%;
+    font-size: 18px;
+  }
+  #contact .contact {
+    padding: 2% 5%;
+  }
+  #our .our .swiper-slide img {
+    width: 122%;
+  }
+  #contact .contact--info2__info3 p {
+    font-size: 13px;
+  }
+  #gazprom .gazprom h1 {
+    font-size: 29px;
+  }
+  #about .about--first p {
+    font-size: 10px;
+  }
+  #about .about h2 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 992px) {
+  #header .hamburger-menu {
+    display: none;
+  }
+  #header .header {
+    padding: 3% 0 3% 15%;
+  }
+  #hero .hero--book {
+    display: none;
+  }
+  #our .our .swiper h2 {
+    top: 5%;
+    font-size: 21px;
+  }
+  #footer .footer--text {
+    margin: 0 -20px;
+  }
+  #grade .grade {
+    padding: 22% 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 72%;
+  }
+  #contact .contact--info__h3 {
+    margin-left: 14px;
+  }
+  #our .our .swiper h1 {
+    top: 59%;
+    left: -30%;
+    font-size: 19px;
+  }
+  #header .header--menu {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  #header .header--fhone {
+    display: none;
+  }
+  #header .header--fhone2 {
+    display: block;
+  }
+  #hero .hero {
+    padding: 14%;
+  }
+  #about .about--teatr-image {
+    display: none;
+  }
+  #about .about--second__icon {
+    width: 60px;
+  }
+  #about .about h2 {
+    font-size: 22px;
+  }
+  #our .our .swiper-slide img {
+    width: 126%;
+  }
+  #gazprom .gazprom h1 {
+    font-size: 21px;
+  }
+  #footer .footer hr {
+    width: 940px;
+    margin-left: -17px;
+  }
+  #contact .contact {
+    padding: 4% 1%;
+  }
+  #about .about {
+    width: 105%;
+  }
+  #hero .hero--gray {
+    height: 101%;
+  }
+}
+@media (max-width: 768px) {
+  #header .header {
+    float: right;
+  }
+  #header .header--hamburger-menu {
+    display: block;
+  }
+  #gazprom .gazprom img:nth-child(11) {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(10) {
+    display: none;
+  }
+  #gazprom .gazprom h1:nth-child(9) {
+    display: none;
+  }
+  #hero .hero {
+    padding: 25% 0;
+  }
+  #gazprom .gazprom h1 {
+    font-size: 24px;
+  }
+  #grade .grade h1 {
+    font-size: 25px;
+  }
+  #grade .grade span {
+    font-size: 47px;
+  }
+  #grade .grade {
+    padding: 33% 16%;
+    width: 71%;
+  }
+  #about .about--second {
+    flex: none;
+    padding-left: 0;
+  }
+  #about .about {
+    padding: 80px 0;
+    text-align: center;
+  }
+  #header .header--menu {
+    display: none;
+  }
+  #hero .hero--gray {
+    display: none;
+  }
+  #header {
+    padding: 3% 0;
+  }
+  #contact .contact--info2__info3 {
+    margin: 0 20px;
+  }
+  #footer .footer hr {
+    width: 721px;
+    margin-left: -17px;
+  }
+  #contact .contact--info2__in--write textarea {
+    padding: 44px 33px;
+  }
+  #header .hamburger-menu {
+    display: block;
+  }
+  #about .about h2 {
+    font-size: 16px;
+  }
+  #contact .contact--info {
+    display: none;
+  }
+  #header .header--fhone {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  #hero .hero--big-teatr p {
+    font-size: 12px;
+    line-height: 125%;
+  }
+  #about .about {
+    display: flex;
+    flex-direction: column;
+  }
+  #about .about h2 {
+    font-size: 21px;
+  }
+  #contact .contact--info2__in--write textarea {
+    margin: 0 20px;
+  }
+  #footer .footer hr {
+    width: 538px;
+  }
+  .contact--info2__in {
+    display: flex;
+    flex-direction: column;
+  }
+  #gazprom .gazprom img:nth-child(11) {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(10) {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(7) {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(8) {
+    display: none;
+  }
+  #gazprom .gazprom img {
+    width: 45px;
+  }
+  #grade {
+    background-size: 95%;
+  }
+  #grade .grade {
+    padding: 34% 0;
+  }
+  #header {
+    padding: 20px 0;
+  }
+  #hero .hero h1 {
+    font-size: 35px;
+  }
+  #hero .hero p {
+    font-size: 10px;
+    line-height: 196%;
+  }
+  #header .header {
+    float: right;
+  }
+  #grade .grade {
+    padding: 44% 0;
+  }
+  #gazprom .gazprom h1:nth-child(6) {
+    display: none;
+  }
+  #gazprom .gazprom h1 {
+    font-size: 31px;
+  }
+  #grade .grade span {
+    font-size: 39px;
+  }
+  #grade .grade ion-icon {
+    font-size: 24px;
+  }
+  #grade .grade {
+    padding: 49% 1%;
+    width: 99%;
+  }
+}
+@media (max-width: 450px) {
+  #hero .hero--big-teatr h1 {
+    font-size: 28px;
+  }
+  #footer .footer hr {
+    width: 389px;
+    margin-left: 10px;
+  }
+  #gazprom .gazprom h1 {
+    font-size: 52px;
+  }
+  #gazprom .gazprom--text {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(3) {
+    display: none;
+  }
+  #our h1 {
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+  }
+  #grade .grade span {
+    font-size: 33px;
+  }
+  #grade .grade {
+    padding: 60% 0;
+  }
+  #grade .grade ion-icon {
+    font-size: 19px;
+  }
+  #grade .grade h1 {
+    font-size: 22px;
+  }
+  #gazprom h1 {
+    font-size: 31px;
+  }
+  #hero .hero--big-teatr p {
+    font-size: 15px;
+    line-height: 125%;
+  }
+  #header .header--fhone {
+    text-decoration: #D1A954 1px solid;
+  }
+  #about .about--first p {
+    font-size: 12px;
+  }
+  #grade {
+    background-size: 98%;
+  }
+  #grade .grade ion-icon {
+    font-size: 23px;
+  }
+  #gazprom .gazprom h1 {
+    font-size: 41px;
+  }
+  #gazprom h1 {
+    font-size: 28px;
+  }
+  #contact h1 {
+    font-size: 28px;
+  }
+  #about .about--first p {
+    font-size: 11px;
+  }
+  #footer .footer hr {
+    width: 357px;
+  }
+  #footer .footer--text {
+    margin: 0 6px;
+    font-size: 10px;
+  }
+  #contact .contact--info2__info3 p {
+    font-size: 9px;
+  }
+  #grade .grade {
+    padding: 70% 0;
+  }
+  #our .our .swiper h1 {
+    left: -27%;
+    font-size: 27px;
+  }
+}
+@media (max-width: 400px) {
+  #about .about h2 {
+    font-size: 19px;
+  }
+  #grade .grade {
+    padding: 74% 0;
+    width: 103%;
+  }
+  #our h1 {
+    font-size: 24px;
+  }
+  #footer .footer hr {
+    width: 344px;
+  }
+  #gazprom .gazprom h1 {
+    font-size: 40px;
+  }
+  #hero .hero--big-teatr h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 380px) {
+  #about .about--first p {
+    font-size: 10px;
+  }
+  #footer .footer hr {
+    width: 323px;
+  }
+}
+@media (max-width: 414px) {
+  #about .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about--first {
+    display: flex;
+    flex-direction: column;
+  }
+  #gazprom h1 {
+    font-size: 27px;
+  }
+  #about .about--first p {
+    font-size: 11px;
+  }
+  #our h1 {
+    font-size: 27px;
+  }
+  #grade .grade ion-icon {
+    font-size: 13px;
+  }
+  #grade .grade {
+    padding: 65% 0;
+    width: 102%;
+  }
+  #gazprom .gazprom img:nth-child(11) {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(10) {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(7) {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(8) {
+    display: none;
+  }
+  #gazprom .gazprom img {
+    width: 45px;
+  }
+  #gazprom .gazprom h1:nth-child(9) {
+    display: none;
+  }
+  #gazprom .gazprom {
+    padding: 10% 4%;
+  }
+  .contact--info2__in {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer .footer hr {
+    width: 402px;
+  }
+  #contact .contact--info2__info3 p {
+    font-size: 9px;
+  }
+  #footer .footer--text {
+    margin: 0 0px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 375px) {
+  #about .about--first p {
+    font-size: 10px;
+  }
+  #footer .footer hr {
+    width: 326px;
+  }
+  #about .about h2 {
+    font-size: 19px;
+  }
+  #gazprom .gazprom h1 {
+    font-size: 37px;
+  }
+  #hero .hero--big-teatr p {
+    font-size: 12px;
+    line-height: 125%;
+  }
+  .contact--info2__in {
+    display: flex;
+    flex-direction: column;
+  }
+  #gazprom .gazprom img:nth-child(11) {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(10) {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(7) {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(8) {
+    display: none;
+  }
+  #gazprom .gazprom img {
+    width: 45px;
+  }
+  #gazprom .gazprom h1 {
+    font-size: 35px;
+  }
+  #gazprom .gazprom h1:nth-child(9) {
+    display: none;
+  }
+  #grade .grade span {
+    font-size: 28px;
+  }
+  #grade .grade h1 {
+    font-size: 20px;
+  }
+  #grade .grade ion-icon {
+    font-size: 11px;
+  }
+  #grade .grade {
+    padding: 79% 0;
+    width: 102%;
+  }
+  #gazprom h1 {
+    font-size: 25px;
+  }
+  #contact h1 {
+    font-size: 25px;
+  }
+  #gazprom .gazprom {
+    padding: 11% 0%;
+  }
+  #contact .contact--info2__info3 p {
+    font-size: 9px;
+  }
+  #footer .footer hr {
+    width: 323px;
+  }
+  #our h1 {
+    font-size: 25px;
+  }
+  #about .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about--first {
+    display: flex;
+    flex-direction: column;
+  }
+  #about .about--first p {
+    font-size: 10px;
+  }
+  #footer .footer--text {
+    margin: 0 0px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 360px) {
+  #about .about h2 {
+    font-size: 18px;
+  }
+  #footer .footer hr {
+    width: 327px;
+  }
+  #contact .contact--info2__info3 p {
+    font-size: 8px;
+  }
+  #gazprom .gazprom h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 320px) {
+  #gazprom h1 {
+    font-size: 22px;
+  }
+  #grade .grade h1 {
+    font-size: 17px;
+  }
+  #about .about--first p {
+    font-size: 9px;
+  }
+  #about .about h2 {
+    font-size: 16px;
+  }
+  #our h1 {
+    font-size: 21px;
+  }
+  #footer .footer hr {
+    width: 291px;
+  }
+  #our .our .swiper h1 {
+    top: 64%;
+    left: -27%;
+    font-size: 22px;
+  }
+  #gazprom .gazprom img:nth-child(4) {
+    display: none;
+  }
+  #gazprom .gazprom img:nth-child(5) {
+    display: none;
+  }
+  #grade .grade {
+    padding: 94% 0;
+    width: 104%;
+  }
+  #footer .footer--text {
+    margin: 0 0px;
+    font-size: 8px;
+  }
+  #gazprom .gazprom img {
+    width: 58px;
+  }
+  #contact .contact--info2__info3 {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

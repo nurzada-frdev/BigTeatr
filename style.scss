@@ -1,0 +1,502 @@
+@import "reset";
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .header {
+    @include alignBetween;
+    padding: 3% 0 3% 13%;
+    &--hamburger-menu{
+      display: none;
+    }
+
+    #menu__toggle {
+      opacity: 0;
+    }
+    .menu__btn {
+      display: flex;
+      align-items: center;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #FFFFFF;
+    }
+    .menu__btn > span::before {
+      content: '';
+      top: -8px;
+    }
+    .menu__btn > span::after {
+      content: '';
+      top: 8px;
+    }
+    .menu__box {
+      display: block;
+      position: fixed;
+      visibility: hidden;
+      top: 0;
+      left: -100%;
+      width: 300px;
+      height: 100%;
+      margin: 0;
+      padding: 80px 0;
+      list-style: none;
+      text-align: center;
+      background-color: #444444;
+      box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    }
+    .menu__item {
+      display: block;
+      padding: 12px 24px;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    ion-icon{
+      color: white;
+      font-size: 30px;
+    }
+    .menu__item:hover {
+      background-color: #CFD8DC;
+    }
+    #menu__toggle:checked ~ .menu__btn > span {
+      transform: rotate(45deg);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::before {
+      top: 0;
+      transform: rotate(0);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .menu__box {
+      visibility: visible;
+      left: 0;
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      transition-duration: .25s;
+    }
+    .menu__box {
+      transition-duration: .25s;
+    }
+    .menu__item {
+      transition-duration: .25s;
+    }
+  }
+}
+
+#hero {
+  @include center;
+  color: $colWhite;
+  background: url("../img/fon1.png");
+  min-height: 90vh;
+
+  .hero {
+    padding: 15%;
+    @include between;
+    /*big teatr start*/
+    h1 {
+      @include letUpper;
+      font-size: 40px;
+      padding-bottom: 30px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 155%;
+      padding-bottom: 30px;
+      width: 76%;
+    }
+
+    button {
+      font-size: 18px;
+      padding: 10px 40px;
+      color: $colWhite;
+      background: #D1A954;
+      border: none;
+    }
+
+    &--gray {
+      background: #333333;
+      position: absolute;
+      width: 150px;
+      height: 105%;
+      left: 0;
+      top: 0;
+      display: flex;
+      flex-direction: column-reverse;
+
+      &__gray-info {
+        @include column;
+
+
+        h2 {
+          top: 25%;
+          left: -14%;
+          transform: rotate(-90deg);
+          font-size: 14px;
+          position: absolute;
+        }
+
+        hr {
+          position: absolute;
+          height: 110px;
+          top: 45%;
+          left: 44%;
+
+        }
+
+        ion-icon {
+          padding-left: 52px;
+          font-size: 40px;
+          padding-bottom: 30px;
+        }
+
+        ion-icon:hover {
+          color: #D1A954;
+        }
+      }
+    }
+
+    &--book {
+      width: 270px;
+      margin-top: -11%;
+      height: 270px;
+      position: relative;
+      left: 20px;
+
+      &__book-slider {
+
+        &--btn {
+          @include between;
+          padding: -1px 20px;
+          font-size: 15px;
+        }
+      }
+
+      button {
+        background: none;
+      }
+
+      &__text {
+        @include between;
+        font-size: 15px;
+      }
+
+      img {
+        width: 270px;
+      }
+    }
+  }
+}
+
+#about {
+  padding: 10% 0;
+
+  h1 {
+    font-weight: 300;
+    color: $colWhite;
+    @include letUpper;
+    @include center;
+    @include h1;
+    align-self: baseline;
+  }
+
+  .about {
+    width: 104%;
+    color: $colWhite;
+    padding: 10% 0;
+    @include alignCenter;
+    @include between;
+
+    &--second {
+      &__icon {
+        width: 58px;
+      }
+    }
+
+    &--teatr-image {
+      width: 300px;
+    }
+
+    h2 {
+      padding: 8px 0;
+      @include letUpper;
+      font-size: 24px;
+    }
+
+    &--first {
+      &__best {
+        margin-bottom: 6px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 150%;
+
+      }
+
+    }
+  }
+}
+
+#our {
+  h1 {
+    @include h1;
+  }
+
+  .our {
+    width: 105.5%;
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+      padding: 100px 0;
+      color: white;
+      position: relative;
+      h2 {
+        position: absolute;
+        top: 5%;
+        font-size: 25px;
+        z-index: 10;
+
+        transition: all 0.8s ease;
+
+      }
+      .column#caption {
+        position: relative;
+      }
+      .column#caption .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        opacity: 0;
+        transition: all 0.8s ease;
+      }
+      .column#caption .text h1 {
+        margin: 0;
+        color: white;
+      }
+      .column#caption:hover .text {
+        opacity: 1;
+      }
+      .column#caption:hover img {
+        -webkit-filter: sepia(90%);
+      }
+      h1 {
+        position: absolute;
+        top: 70%;
+        left: -22%;
+        font-size: 20px;
+        -webkit-transform: rotate(-90deg);
+      }
+
+
+
+      ion-icon {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        border-radius: 60px;
+        @include center;
+        background: #D1A954;
+      }
+
+      ion-icon:hover {
+        transform: rotate(360deg);
+        background: #444444;
+        transition: 1.2s;
+      }
+    }
+
+    .swiper-slide {
+      text-align: center;
+      background: #fff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 116%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+#grade {
+  @include between;
+  background: url("../img/fon2.png") center no-repeat;
+  min-height: 100vh;
+  background-size: 70%;
+
+  .grade {
+    padding: 18% 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+
+    ion-icon {
+      font-size: 35px;
+      color: #F1B864;
+      border: none;
+      margin: 0 9px;
+    }
+
+    h1 {
+      font-size: 37px;
+      color: $colWhite;
+    }
+
+    span {
+      color: #F1B864;
+      font-weight: 700;
+      font-size: 72px;
+      @include letUpper;
+    }
+  }
+}
+
+#gazprom {
+  h1 {
+    @include h1;
+  }
+
+  padding: 5% 0;
+  @include center;
+
+  .gazprom {
+
+    @include between;
+    padding: 5% 4%;
+
+    &--fire-svg {
+      margin-left: -20px;
+      margin-top: -65px;
+    }
+
+    h1 {
+      color: #444444;
+      font-size: 37px;
+      font-weight: 800;
+      letter-spacing: 0;
+      margin: 0 18px;
+    }
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+#contact {
+  h1 {
+    @include h1;
+  }
+
+  .contact {
+    @include between;
+    padding: 4% 11%;
+
+    &--info {
+      font-weight: 700;
+      font-size: 17px;
+      @include column;
+      color: #FFFFFF;
+
+      &__h3 {
+        margin-left: 27px;
+        margin-bottom: 25px;
+      }
+
+      &__number {
+        margin-bottom: 25px;
+      }
+    }
+
+    &--info2 {
+      &__info3 {
+        @include between;
+        color: $colWhite;
+
+        p {
+          font-size: 15px;
+        }
+
+        button {
+          background: #D1A954;
+          padding: 15px 49px;
+          color: $colWhite;
+          border: none;
+        }
+      }
+
+      &__in {
+        @include around;
+        margin-bottom: 13px;
+
+        &--write {
+          @include column;
+
+          input {
+            @include input;
+          }
+
+          textarea {
+            padding: 43px 41px;
+            background: #444444;
+            margin: 0 -8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#footer {
+  .footer {
+    color: #FFFFFF;
+
+    hr {
+      margin-left: 100px;
+    }
+
+    &--text {
+      padding: 30px 0;
+      margin: 0 95px;
+      @include between;
+      font-size: 13px;
+
+    }
+  }
+}
